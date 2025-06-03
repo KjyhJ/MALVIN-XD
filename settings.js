@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "malvin~E2tVEbQC#5Or-JY_wd_Z2Z6xyeAUs8we0mSbDKg9xyAxc3hu6ey8",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -85,16 +85,16 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
                 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
 
-            ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+            ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
 
-            AUTO_VOICE: process.env.AUTO_VOICE || "false",
+            AUTO_VOICE: process.env.AUTO_VOICE || "true",
 // make true for send automatic voices
 
         AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 
-              AUTO_REPLY: process.env.AUTO_REPLY || "false",
+              AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 
         ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
@@ -106,7 +106,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
         AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing 
   
-   READ_CMD: process.env.READ_CMD || "false",
+   READ_CMD: process.env.READ_CMD || "true",
 // true if want mark commands as read 
 
      DEV: process.env.DEV || "263780166288",
